@@ -1,0 +1,1597 @@
+.sign{
+    display: flex;
+    position: relative;
+    /* width: 1440px; */
+    /* height: 1024px; */
+    width: auto;
+    height: auto;
+}
+
+/* .signin {
+    text-align: center;
+} */
+
+.board {
+    display: flex;
+    position: absolute;
+    width: 246px;
+    height: 88px;
+    left: 171px;
+    top: 464px;
+    color: #FFFFFF;
+
+    /* font-family: 'Times New Roman'; */
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+}
+
+.leftside {
+    display: flex;
+    position: absolute;
+    width: 588px;
+    height: 1024px;
+    left: 0px;
+    right: 0px;
+    background: #000000;
+}
+
+.rightside {
+    display: flex;
+    position: absolute;
+    width: 852px;
+    height: 1024px;
+    left: 588px;
+    top: 0px;
+
+    background: #F5F5F5;
+}
+
+.signins{
+    display: flex;
+    position: absolute;
+    width: 131px;
+    height: 44px;
+    left: 244px;
+    top: 260px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    font-family: 'montserrat';
+}
+
+.acc{
+    display: flex;
+    position: absolute;
+    /* width: 161px; */
+    width: auto;
+    height: 19px;
+    left: 244px;
+    top: 309px;
+    font-family: 'Lato';
+    /* font-family: 'Arial'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+
+    color: #000000;
+}
+
+.googlesignin{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 244px;
+    top: 354px;
+}
+
+.applesignin{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 449px;
+    top: 354px;
+}
+
+.googlebutton {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+.applebutton{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.loginform{
+    display: flex;
+    position: absolute;
+    width: 385px;
+    height: 356px;
+    left: 244px;
+    top: 409px;
+}
+
+.cardss1{
+    display: flex;
+    position: absolute;
+    width: 385px;
+    height: 317px;
+    left: 0px;
+    top: 0px;
+}
+
+.cardss2{
+    display: flex;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.Email{
+    display: flex;
+    position: absolute;
+    width: auto;
+    height: 19px;
+    left: 20px;
+    top: 0px;
+    font-family: 'Lato';
+    /* font-family: 'Arial'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.text-input{
+    position: absolute;
+    width: 325px;
+    height: 40px;
+    left: 20px;
+    top: 14%;
+
+    /* Background */
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+
+.Password{
+    position: absolute;
+    width: 68px;
+    height: 19px;
+    left: 20px;
+    top: 96px;
+
+    /* font-family: 'Arial'; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.pass-input{
+    position: absolute;
+    width: 325px;
+    height: 40px;
+    left: 20px;
+    top: 44%;
+
+    /* Background */
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+
+.forgot-pass{
+    position: absolute;
+    width: auto;
+    height: 19px;
+    left: 20px;
+    font-family: 'Lato';
+    top: 60%;
+
+    /* font-family: 'Arial'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Link */
+    color: #346BD5;
+}
+
+.signin-button{
+    position: relative;
+    width: 330px;
+    height: 50px;
+    left: 20px;
+    top: 245px;
+    background: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.signin-text{
+    position: relative;
+    width: 101.96px;
+    height: 21.71px;
+    left: 110px;
+    top: 0px;
+    align-items: center;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    /* color: #FFFFFF; */
+    color: #FFFFFF
+}
+
+.button-text{
+    top: 0%;
+}
+
+.signintext{
+    margin-left: 9px;
+    font-size: 12px;
+    font-family: 'monts-regular';
+    font-style: normal;
+    font-weight: 400;
+    color: #858585;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('./Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('./Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: monts-light;
+    src: url('./Montserrat-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: montts-light;
+    src: url('./Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: monts-regular;
+    src: url('./Montserrat-Regular.ttf');
+}
+
+.noacc{
+    display: flex;
+    position: absolute;
+    width: 385px;
+    height: 356px;
+    left: 306px;
+    top: 746px;
+    font-family: 'Lato';
+}
+
+.link-style {
+    text-decoration: none;
+  }
+
+.appleicon{
+    padding-left: 0%;
+    padding-right: 8%;
+    padding-bottom: 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.applesignintext{
+    /* margin-left: 9px; */
+    font-size: 12px;
+    font-family: 'monts-regular';
+    font-style: normal;
+    font-weight: 400;
+    color: #858585;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------navigation.css----------------------------- */
+.navigation-bar {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 280px;
+    height: 944px;
+    padding-top: 20px;
+    display: flex;
+    left: 40px;
+    top: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 30px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+   /* Navigation.css */
+
+
+
+   .navigation-bar {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 280px;
+    height: 944px;
+    padding-top: 20px;
+    display: flex;
+    left: 40px;
+    top: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 30px;/* ... existing styles ... */
+    bottom: 40px;
+    right:120px;
+    flex-shrink:0;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    /* padding-top: 62px; */
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-item img {
+    /* left: 50px; */
+    padding-left: 30px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .menu-item span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  
+  .menu-item:hover {
+    background-color: #333;
+  }
+
+  .imagee{
+    left: 50px;
+  }
+
+ .vector{
+
+position: absolute;
+left: 21.07%;
+right: 75.71%;
+top: 17.58%;
+bottom: 81.46%;
+
+ 
+
+background: #FFFFFF;
+
+ 
+
+ }
+
+/* Vector */
+
+ .vector{
+
+position: absolute;
+left: 17.86%;
+right: 75.88%;
+top: 17.63%;
+bottom: 80.51%;
+
+ 
+
+background: #FFFFFF;
+ }
+
+
+ 
+
+ .Help{
+
+ 
+
+      position: absolute;
+
+     
+
+      left: 17.86%;
+
+     
+
+      right: 70%;
+
+     
+
+      top: 87.92%;
+
+     
+
+      bottom: 10.28%;
+
+     
+
+       
+
+     
+
+      font-family: 'Montserrat';
+
+     
+
+      font-style: normal;
+
+     
+
+      font-weight: 400;
+
+     
+
+      font-size: 14px;
+
+     
+
+      line-height: 17px;
+
+     
+
+      /* identical to box height */
+
+     
+
+       
+
+     
+
+      color: #FFFFFF;
+
+     
+
+      }
+
+.ContactUs{
+
+  width: max-content;
+
+    position: absolute;
+
+   
+
+    left: 17.86%;
+
+   
+
+    right: 54.29%;
+
+   
+
+    top: 91.84%;
+
+   
+
+    bottom: 6.36%;
+
+   
+
+     
+
+   
+
+    font-family: 'Montserrat';
+
+   
+
+    font-style: normal;
+
+   
+
+    font-weight: 400;
+
+   
+
+    font-size: 14px;
+
+   
+
+    line-height: 17px;
+
+   
+
+    /* identical to box height */
+
+   
+
+     
+
+   
+
+    color: #FFFFFF;
+
+   
+
+     
+
+   
+
+    }
+
+   
+
+    .card{
+        position: absolute;
+        width: 221.05px;
+        height: 120px;
+        left: 380px;
+        top: 129px;
+        }
+    
+    .card{
+    position: absolute;
+    left:380px;
+    right: 838.95px;
+    top: 129px;
+    bottom: 775px;
+    height:120px;
+    background: #DDEFE0;
+    border-radius: 20px;
+    }    
+    
+    .TotalRevenues{
+        position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 25px;
+    top: 40px;
+    bottom:58px;
+    
+     
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+     
+    
+    color: #000000;
+    }
+    .hi {
+        position: absolute;
+        width: 124px;
+        height: 33px;
+        left: 25px;
+        top: 50px;
+        right:72.05px;
+        bottom:50px;
+        
+         
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: normal;
+        /* identical to box height */
+        
+         
+        
+        color: #000000;
+    }
+    .vector{
+    
+    position: absolute;
+    left: 169px;
+    right: 25.65 px;
+    top: 20px;
+    bottom: 76px;
+    
+     
+    
+    background: #000000;
+    }
+    
+    /* Card */
+    .card1{
+    
+    position: absolute;
+    left: 637.89px;
+    right: 581.05px;
+    top: 129px;
+    bottom: 775px;
+    
+    background: #F4ECDD;
+    border-radius: 20px;
+    }
+    /* -----------------------card1.css */
+
+    .cards{
+        position: absolute;
+        width: 221.05px;
+        height: 120px;
+        left: 637.89px;
+        top: 129px;
+        }
+    
+    .cards{
+        /* Card */
+    
+     
+    
+    position: absolute;
+    left:637.89px;
+    right: 581.05px;
+    top: 129px;
+    bottom: 775px;
+    height:120px;
+    
+     
+    
+    background: #F4ECDD;
+    border-radius: 20px;
+    }    
+    
+    .TotalTransactions{
+        position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 25px;
+    top: 40px;
+    bottom:58px;
+    
+     
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+     
+    
+    color: #000000;
+    }
+    .hlo {
+        position: absolute;
+        width: 124px;
+        height: 33px;
+        left: 25px;
+        top: 50px;
+        right:72.05px;
+        bottom:50px;
+        
+         
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: normal;
+        /* identical to box height */
+        
+         
+        
+        color: #000000;
+    }
+    .vector1{
+    
+    position: absolute;
+    left: 169px;
+    right: 25.65 px;
+    top: 20px;
+    bottom: 76px;
+    
+     
+    
+    background: #000000;
+    }
+    
+    /* Card */
+    .card1{
+    
+    position: absolute;
+    left: 637.89px;
+    right: 581.05px;
+    top: 129px;
+    bottom: 775px;
+    
+    background: #F4ECDD;
+    border-radius: 20px;
+    }
+
+    /* -----------card2.css */
+
+    .card2{
+        position: absolute;
+        width: 221.05px;
+        height: 120px;
+        left: 921px;
+        top: 174px;
+        
+        }
+    
+    .card2{
+        /* Card */
+    
+     
+    
+    position: absolute;
+    left:895.79px;
+    right: 323.16px;
+    top: 129px;
+    bottom: 775px;
+    height:120px;
+    
+     
+    
+    background: #efdada;
+    border-radius: 20px;
+    }    
+    
+    .TotalLikes{
+        position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 25px;
+    top: 40px;
+    bottom:58px;
+    
+     
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+     
+    
+    color: #000000;
+    }
+    .how {
+        position: absolute;
+        width: 124px;
+        height: 33px;
+        left: 25px;
+        top: 50px;
+        right:72.05px;
+        bottom:50px;
+        
+         
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: normal;
+        /* identical to box height */
+        
+         
+        
+        color: #000000;
+    }
+    .vector2{
+    
+    position: absolute;
+    left: 169px;
+    right: 25.65 px;
+    top: 20px;
+    bottom: 76px;
+    
+     
+    
+    background: #000000;
+    }
+    
+    /* Card */
+    .card2{
+    
+    position: absolute;
+    left: 895.79px;
+    right: 323.16px;
+    top: 129px;
+    bottom: 775px;
+    
+    background: #efdada;
+    border-radius: 20px;
+    }
+
+    /* ----------------card3.css */
+
+    .card3{
+        position: absolute;
+        width: 221.05px;
+        height: 120px;
+        left: 1158.95px;
+        top: 174px;
+        
+        }
+    
+    .card3{
+        /* Card */
+    
+     
+    
+    position: absolute;
+    left:1158.95px;
+    right: 60px;
+    top: 129px;
+    bottom: 775px;
+    height:120px;
+    
+     
+    
+    background: #dee0ef;
+    border-radius: 20px;
+    }    
+    
+    .TotalUsers{
+        position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 25px;
+    top: 40px;
+    bottom:58px;
+    
+     
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+     
+    
+    color: #000000;
+    }
+    .hru {
+        position: absolute;
+        width: 124px;
+        height: 33px;
+        left: 25px;
+        top: 50px;
+        right:72.05px;
+        bottom:50px;
+        
+         
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: normal;
+        /* identical to box height */
+        
+         
+        
+        color: #000000;
+    }
+    .vector3{
+    
+    position: absolute;
+    left: 169px;
+    right: 25.65 px;
+    top: 20px;
+    bottom: 76px;
+    
+     
+    
+    background: #000000;
+    }
+    
+    /* Card */
+    .card3{
+    
+    position: absolute;
+    left: 1158.95px;
+    right: 60px;
+    top: 129px;
+    bottom: 775px;
+    
+    background: #dee0ef;
+    border-radius: 20px;
+    }
+
+
+
+    /* .container{
+      position: relative;
+      width: 1440px;
+      height: 1024px;
+      background-color: #F5F5F5;
+    }
+    .dashboard-container {
+      display: flex;
+      height: 100vh;
+      position: relative;
+      width: 1440px;
+      height: 1024px;
+      background-color: #F5F5F5;
+    } */
+
+    /* ----------------------------dashboard.css */
+        /* .container{
+      position: relative;
+      width: 1440px;
+      height: 1024px;
+      background-color: #F5F5F5;
+    }
+    .dashboard-container {
+      display: flex;
+      height: 100vh;
+      position: relative;
+      width: 1440px;
+      height: 1024px;
+      background-color: #F5F5F5;
+    }
+    
+    
+    .main-content {
+      flex-grow: 1;
+      padding: 20px; 
+      background-color: gray;
+      border-radius: 10px;
+      margin-left: 20px; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .dashboard-heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+    
+    .search-bar-container {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin-right: 20px;
+    }
+    
+    .search-bar {
+      border: none;
+      outline: none;
+      padding: 5px;
+      font-size: 14px;
+      width: 150px;
+    }
+     */
+
+/* ------------------------------------------------header.css */
+
+.Header{
+
+  position: absolute;
+  width: 1000px;
+  height: 30px;
+  left: 380px;
+  top: 60px;
+  }
+.dashboard-heading{
+position: absolute;
+width: 138px;
+height: 29px;
+left: 380px;
+top: 58px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.search-bar-container{
+position: absolute;
+width: 180px;
+height: 20px;
+left: 1093px;
+top: 68px;
+}
+
+.searchicon{
+  margin-left: 5%;
+}
+
+/* White */
+.White{
+position: absolute;
+width: 180px;
+height: 30px;
+left: 1093px;
+top: 60px;
+}
+
+.bell-icon{
+  /* margin-left: 40px; */
+  padding-left: 50px;
+  margin-top: 19px;
+}
+
+
+.search-button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    /* padding: 5px ; */
+    cursor: pointer;
+    top:60px;
+  }
+  
+  .search-button:hover {
+    background-color: #e0e0e0;
+    top:100%;
+  }
+
+/* Search... */
+.Search{
+position: absolute;
+width: 52px;
+height: 17px;
+left: 1108px;
+top: 80px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+/* Light grey */
+color: #B0B0B0;
+}
+
+
+/* Search icon */
+.search-icon{
+position: absolute;
+width: 12px;
+height: 12px;
+left: 1246px;
+top:100%;
+}
+
+.user-icon{
+position: absolute;
+left: 120%;
+right:0%;
+margin-top: 19px;
+margin-left: 40px;
+/* top: 40%; */
+/* bottom: -13.67%; */
+
+
+}
+
+
+
+
+
+/* ------------------------------------------Linechartd.css */
+.Linechartcard{
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  padding: 1px;
+
+  background-color: #fff;
+
+  transition: transform 0.2s ease-in-out;
+
+  position: absolute;
+
+    width: 1000px;
+
+    height: 359px;
+
+    left: 380px;
+
+    top: 289px;
+
+    right:60px;
+
+}
+
+ 
+
+.bitcoin{
+
+  margin-left: 48px;
+
+  left: 40px;
+
+  right: 867px;
+
+  bottom: 307px;
+
+  top: 30px;
+
+}
+
+ 
+
+.recharts-legend-item {
+
+  margin-left: 40px; /* Adjust the value to control the gap between legend items */
+}
+   
+
+  /* ---------------------------------pirchart.css */
+
+  .productscard {
+    /* position: fixed; */
+    position: absolute;
+    width: 480px;
+    height: 256px;
+    left: 380px;
+    right: 60px;
+    top: 688px;
+    bottom: 80px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .top-products {
+    width: 125px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+
+  .may-june {
+    display: flex;
+    width: auto;
+    height: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 170px;
+    padding-top: 33px;
+    padding-right: 10px;
+    color: var(--secondary-text, #858585);
+    
+  }
+
+  .may-june .icon {
+   width: 8px;
+    height: 7px;
+    padding-top: 5px;
+    padding-left: 5px; 
+  }
+
+  .chart-container {
+    display: flex;
+
+    width: 134px;
+    height: 134px;
+    margin-right: 100px;
+    padding-right: 286px;
+    padding-bottom: 10%;
+    /* padding-left: 194px; */
+    /* margin-right: 50px; */
+    margin: 20px auto; /* Center the pie chart */
+  }
+  
+  .legend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-left: 50px;
+  }
+  
+  .legend-item {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* width: ; */
+    padding-left: 30px;
+    margin-right: 100px;
+  }
+  
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .legend-text {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    width: max-content;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .legend-title {
+    font-size: 12px;
+    width: auto;
+  }
+  
+  .legend-ratio {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+
+  .texthead{
+    display: flex;
+    flex-direction: row;
+  }
+  /* Add more styling as needed */
+  .lastComp{
+    top: 688px;
+  }
+  /* Schedule.css */
+  .cardschedule{
+    position: relative;
+    width: 480px;
+    height: 256px;
+    left: 900px;
+    top: 688px;
+    display:flex;
+    }
+     
+    
+    /* Card */
+    
+     
+    /* .cardschedule{
+    position: relative;
+    width: 480px;
+    height: 256px;
+    left: 900px;
+    top: 688px;
+    } */
+     
+  
+     .cardschedule{
+    position: absolute;
+    left: 900px;
+    right: 60px;
+    top: 688px;
+    bottom: 80px;
+    background: white;
+    border-radius: 20px;
+     } 
+    
+     .TodaysSchedule{
+    
+    /* Today’s schedule */
+    
+    position: absolute;
+    width: 162px;
+    height: 22px;
+    left: 40px;
+    top: 15px;
+    right:278px;
+    bottom:204px;
+    
+     
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: normal;
+    /* identical to box height */
+    
+     
+    
+    color: #000000;
+     
+     }
+    .groups{
+     position: absolute;
+    width: 251px;
+    height: 66px;
+    left: -10px;
+    top:-20px;
+    right:249px;
+    bottom:198px;
+    flex-shrink: 0;
+    }
+    .MeetingwithsuppliersfromKutaBali {
+        position:absolute;
+        top:80px;
+        width:236px;
+        left:55px;
+        right:189px;
+        bottom: 159px;
+        color: #666;
+        height:17px;
+    
+    font-family: Lato;
+    
+    font-size: 14px;
+    
+    font-style: normal;
+    
+    font-weight: 700;
+    
+    line-height: normal;
+    }
+    .time{
+    
+    position: absolute;
+    width: 66px;
+    height: 14px;
+    left: 55px;
+    top: 102px;
+    right:359px;
+    bottom: 140px;
+    
+    
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    
+    
+    /* icon */
+    color: #999999;}
+    
+    .atSunsetRoadKutaBali{
+    position: absolute;
+    width: 135px;
+    height: 14px;
+    left: 55px;
+    top: 121px;
+    right: 290px;
+    bottom: 121px;
+    
+    
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    
+    
+    /* icon */
+    color: #999999;}
+    
+    /* Line 6 */
+    
+    .Line6{
+    
+    position: absolute;
+    width: 66px;
+    height: 0px;
+    left: 10px;
+    top: 120px;
+    right: 440px;
+    bottom: 113px;
+    
+    
+    
+    
+    /* Light Green */
+    border: 2px solid #9BDD7C;
+    transform: rotate(-90deg);
+    
+    
+    }
+    
+    .group2{
+        position: absolute;
+       width: 251px;
+       height: 66px;
+       left: -10px;
+       top:-15px;
+       right:249px;
+       bottom:198px;
+       flex-shrink: 0;
+       }
+       .CheckoperationatGigafactory1 {
+           position:absolute;
+           top:158px;
+           width:236px;
+           left:55px;
+           right:189px;
+           bottom: 159px;
+           color: #666;
+           height:17px;
+       
+       font-family: Lato;
+       
+       font-size: 14px;
+       
+       font-style: normal;
+       
+       font-weight: 700;
+       
+       line-height: normal;
+       }
+       .time1{
+       
+       position: absolute;
+       width: 66px;
+       height: 14px;
+       left: 55px;
+       top: 180px;
+       right:359px;
+       bottom: 140px;
+       
+       
+       
+       font-family: 'Lato';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 14px;
+       
+       
+       
+       /* icon */
+       color: #999999;}
+       
+       .atCentralJakarta{
+       position: absolute;
+       width: 135px;
+       height: 14px;
+       left: 55px;
+       top: 200px;
+       right: 290px;
+       bottom: 121px;
+       
+       
+       
+       font-family: 'Lato';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 14px;
+       
+       
+       
+       /* icon */
+       color: #999999;}
+       
+       /* Line 6 */
+       
+       .Line7{
+       
+       position: absolute;
+       width: 66px;
+       height: 0px;
+       left: 10px;
+       top: 200px;
+       right: 440px;
+       bottom: 113px;
+       
+       
+       
+       
+       /* Light Green */
+       border: 2px solid #6972C4;
+    transform: rotate(90deg);
+       
+       
+       }
+    
+    .seeall{
+        display: flex;
+        width: auto;
+        height: 15px;
+        font-weight: 400;
+        font-size: 12px;
+        padding-left: 400px;
+        padding-top: 20px;
+        padding-right: 10px;
+        color: var(--secondary-text, #858585);
+    }
+    .seeallimg {
+        position: absolute;
+        width: 8px;
+        height: 7px;
+        padding-top: 24.50px;
+        padding-left: 450px; 
+      }
+        
+       
+       
+       
+     
